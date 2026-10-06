@@ -19,7 +19,7 @@ doc = SimpleDocTemplate("MiniProject_Writeup.pdf", pagesize=A4, leftMargin=1.8*c
 P = lambda t, st=B: Paragraph(t, st)
 st = []
 st += [P("Pancreatic Cancer Prognosis using Clinical and Radiomic Data", T),
-       P("UE24CS352A Machine Learning &middot; Mini-Project &middot; Problem #6 &middot; Team: [Member 1 (SRN)], [Member 2 (SRN)]", S)]
+       P("UE24CS352A Machine Learning &middot; Mini-Project &middot; Problem #6 &middot; Team: Pratik Patil(PES2UG24CS372), Ruhika Kolla(PES2UG24CS908)", S)]
 
 st += [P("1. Problem Statement", H),
        P("Most pancreatic cancer patients are diagnosed late, so prognosis matters for borderline-resectable and locally advanced cases. "
